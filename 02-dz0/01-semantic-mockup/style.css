@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    color: white;
+}
+h1, footer {
+    background-color: red;
+    font-size: 40px;
+    text-align: center;
+}
+nav {
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+main {
+    background-color: green;
+    padding: 10px;
+}
+article {
+    background-color: blue; 
+}
+.article2 {
+    margin-top: 5px;
+}
+footer {
+    background-color: purple;
+}
