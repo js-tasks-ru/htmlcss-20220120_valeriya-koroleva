@@ -1,5 +1,4 @@
-
-.btn__elem1, .btn__elem2, .btn__elem3 {
+.button {
     border-radius: 8px;
     width: 182px;
     height: 48px;
@@ -10,33 +9,33 @@
     text-align: center;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     }
-.btn__elem1 {
-    background: var(--blue);;
+.button_primary {
+    background: #4263EB;
 }
-.btn__elem2 {
-    background: var(--purple);
+.button_secondary {
+    background: #7048E8;
 }
-.btn__elem3 {
+.button_alternate {
     border: 1px solid #ACB5BD;
     box-sizing: border-box;
     border-radius: 8px; 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.btn__elem1:hover {
+.button_primary:hover {
     background: #2342C0;
     cursor: pointer;
 }
-.btn__elem2:hover {
+.button_secondary:hover {
     background: #5028C6;
     cursor: pointer;
 }
-.btn__elem3:hover {
+.button_alternate:hover {
     border: 1px solid #212429;
     cursor: pointer;
     box-sizing: border-box;
     border-radius: 8px;
 }
-.btn__elem1_disabled, .btn__elem2_disabled, .btn__elem3_disabled {
+.button_disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
