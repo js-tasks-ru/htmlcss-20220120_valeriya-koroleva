@@ -1,26 +1,14 @@
-body {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-}
 .accordion {
-    display: inline-flex; 
-    margin-top: 75px;
+    display: block;
 }
-.accordion__header {
-    display: inline-flex; 
-    font-size: 38px;
-    line-height: 46px;
-    color: var(--black);
-    margin:0 192px 0 186px;
-}
-.accordion__full {
+.accordion__details {
+    display: flex;
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
     margin-top: 8px;
     padding: 24px 48px 24px 32px;
-    width: 730px;
+    width: 50%;
     font-size: 16px;
     line-height: 24px;
 }
