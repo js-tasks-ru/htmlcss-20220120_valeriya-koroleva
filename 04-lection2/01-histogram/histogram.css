@@ -35,7 +35,7 @@
     margin-bottom: 24px;
     bottom: 0;
 }
-.bar {
+.graph__elem {
     background-color: #4263EB;
     width: 9px;
     margin-right: 1px;
