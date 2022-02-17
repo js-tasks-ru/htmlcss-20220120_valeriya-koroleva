@@ -1,11 +1,7 @@
-body {
-    text-align: center;
-}
 .tooltip{
     display: inline-flex;
     position: relative;
     cursor: pointer;
-    margin-top: 50px;
 }
 .tooltip__icon {
     width: 24px;
@@ -19,7 +15,7 @@ body {
     color: var(--white);
     padding: 13px 21px 8px 21px;
     position: absolute;
-    top: calc(-200% - 3px);
+    bottom: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
@@ -30,7 +26,7 @@ body {
 .tooltip__bubble:after {
     content: "";
     position: absolute;
-    bottom: -40%;
+    top: 100%;
     left: 50%;
     border: 12px solid transparent;
     border-top: 8px solid var(--black);
