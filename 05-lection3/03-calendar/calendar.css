@@ -1,5 +1,5 @@
 .calendar {
-    background: var(--white);;
+    background: var(--white);
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
@@ -49,6 +49,6 @@
 }
 
 .calendar__item_selected{
-    background: var(--blue-2);;
+    background: var(--blue-2);
     opacity: 0.2;
 }
