@@ -1,0 +1,13 @@
+footer {
+    padding-top: 71px;
+}
+.about {
+    text-align: center;
+    font-size: 38px;
+    line-height: 48px;
+}
+.about__text {
+    margin: auto;
+    text-align: center;
+    width: 640px;
+}
