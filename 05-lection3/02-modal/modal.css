@@ -5,8 +5,7 @@
     height: 100%;
     font-family: Inter;
     font-style: normal;
-    background: #C4C4C4;
-    opacity: 0.5;
+    background: rgba(196, 196, 196, .5);
 }
 .modal__window{
     position: relative;
@@ -26,7 +25,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: #334D6E;;
+    color: #334D6E;
 }
 .modal__text{
     padding-top: 14px;
@@ -42,7 +41,5 @@
     width: 10px;
     height: 10px;
     color: var(--grey-4);
-}
-.modal__close:hover{
     cursor: pointer;
 }
