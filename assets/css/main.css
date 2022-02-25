@@ -8,7 +8,10 @@
     --purple-1: #5028C6;
     --blue: #374FC7;
     --blue-2: #4263EB;
+<<<<<<< HEAD
     --blue-3: #2342C0;
+=======
+>>>>>>> 411190656c7c62cd989210f966be3c8a8a08fbf1
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -20,6 +23,8 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --histogram: var(--blue-2);
 }
 
 * {
